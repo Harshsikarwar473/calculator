@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="display">
+        <div id="ans">0</div>
+
+    </div>
+  
+    <div class="input">
+        <div class="clear">
+            <button onclick="cleardisplay()">Ac</button>
+        </div>
+        <div class="value">
+        <div class="1">
+            <button onclick="append('1')">1</button>
+        </div>
+        <div class="2">
+            <button onclick="append('2')">2</button>
+        </div>
+        <div class="3">
+        <button onclick="append('3')">3</button>
+        </div>
+        <div class="devide">
+            <button onclick="setoperator('/')">/</button>
+        </div>
+        <div class="4">
+            <button onclick="append('4')">4</button>
+        </div>
+        <div class="5">
+            <button onclick="append('5')">5</button>
+        </div>
+        <div class="6">
+            <button onclick="append('6')">6</button>
+
+        </div>
+        <div class="multiply">
+            <button onclick="setoperator('*')">*</button>
+
+        </div>
+        <div class="7">
+            <button onclick="append('7')">7</button>
+
+        </div>
+        <div class="8">
+            <button onclick="append('8')">8</button>
+
+        </div>
+        <div class="9">
+            <button onclick="append('9')">9</button>
+
+        </div>
+        <div class="add">
+            <button onclick="setoperator('+')">+</button>
+
+        </div>
+        <div class="0">
+            <button onclick="append('0')">0</button>
+        </div>
+        <div class="decimal">
+            <button onclick="append('.')">.</button>
+        </div>
+        <div class="sub">
+            <button onclick="setoperator('-')">-</button>
+
+        </div>
+        <div class="result">
+            <button onclick="result()">=</button>
+
+        </div>
+
+        
+    </div>
+
+
+    </div>
+   </div> 
+   <script src="scripte.js"></script>
+</body>
+
+</html>
