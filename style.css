@@ -5,13 +5,13 @@ body{
 }
 .container{
     width: 25vw;
-    height: 54vh;
+    height: 250px;
     background-color: rgb(49, 48, 48);
     border-radius: 4px;
 }
 .display{
     width: 95%;
-    height:30%;
+    height:50px;
     margin: 8px;
     background-color: rgb(60, 80, 60);
     border-radius: 2px;
